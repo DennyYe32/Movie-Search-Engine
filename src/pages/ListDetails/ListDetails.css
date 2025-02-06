@@ -1,0 +1,78 @@
+.list-details-container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 1200px;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Increased spacing between items */
+}
+
+.movie-item {
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  width: 300px; /* Increased width for larger items */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-item:hover {
+  transform: scale(1.1); /* Enlarged hover effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.movie-poster {
+  max-width: 100%;
+  height: auto; /* Ensure proper scaling */
+  border-radius: 10px;
+  margin-bottom: 15px; /* Increased margin for better spacing */
+}
+
+.movie-title {
+  font-size: 20px; /* Larger font size */
+  font-weight: bold;
+  color: #f4c430;
+  margin: 15px 0; /* Increased margin for spacing */
+}
+
+.back-button {
+  margin-top: 30px;
+  padding: 15px 30px; /* Larger padding for emphasis */
+  background-color: #f4c430;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px; /* Increased font size */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.back-button:hover {
+  background-color: #ffdd57;
+  transform: scale(1.05);
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 20px; /* Increased font size for visibility */
+  margin-top: 20px;
+}
+
+.no-movies {
+  color: #b0b0b0;
+  font-size: 20px; /* Increased font size for emphasis */
+  margin-top: 20px;
+}

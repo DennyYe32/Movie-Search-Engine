@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px);
+  }
+  
+  .login-form-card {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-form-card h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #f4c430;
+  }
+  
+  .login-form-card h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+  }
+  
+  .input-group {
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #e0e0e0;
+  }
+  
+
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #1a1a1a; /* 深色背景 */
+    color: #ffffff; /* 白色字体 */
+    font-size: 14px;
+  }
+  
+  .password-container {
+    position: relative;
+    align-items: center;
+  }
+
+  .textImgDiv {
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-container img {
+    position: absolute;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 25px; 
+    height: 50px; 
+}
+
+  
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f4c430;
+    color: #0d0d0d;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #ffdd57;
+  }
+
+  .imgFix {
+    display: flex;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #e0e0e0;
+  }
+  
+  .register-link a {
+    color: #f4c430;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
